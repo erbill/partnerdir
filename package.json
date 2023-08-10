@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Bitti Gitti's partners page",
   "main": "index.js",
-
-"scripts": {
-  "docs:dev": "vitepress dev docs",
-  "docs:build": "vitepress build docs",
-  "docs:serve": "vitepress serve docs"
-},
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "preinstall": "node preinstall.js"
+  },
   "keywords": [
     "the",
     "wooden",
